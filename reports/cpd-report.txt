@@ -1,0 +1,507 @@
+Found a 25 line (228 tokens) duplication in the following files: 
+Starting at line 68 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddMealStage.java
+Starting at line 132 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		title.setFont(Font.font("Tahoma", FontWeight.NORMAL, 30));
+		
+		//the columns
+		TableColumn<FoodOnDiet, Integer> column1 = new TableColumn<>("Name");
+		column1.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Integer>("name"));
+		
+		TableColumn<FoodOnDiet, Double> column2 = new TableColumn<>("Carbohydrates");
+		column2.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Double>("carbs"));	
+		
+		TableColumn<FoodOnDiet, Double> column3 = new TableColumn<>("Fats");
+		column3.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Double>("fats"));
+		
+		TableColumn<FoodOnDiet, Double> column4 = new TableColumn<>("Proteins");
+		column4.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Double>("prots"));
+		
+		TableColumn<FoodOnDiet, Double> column5 = new TableColumn<>("Fibers");
+		column5.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Double>("fibers"));
+		
+		TableColumn<FoodOnDiet, Double> column6 = new TableColumn<>("Kcals");
+		column6.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Double>("totKcals"));
+		
+		TableColumn<FoodOnDiet, Integer> column7 = new TableColumn<>("Quantity");
+		column7.setCellValueFactory(new PropertyValueFactory<FoodOnDiet, Integer>("quantity"));
+		
+		this.table = new TableView<FoodOnDiet>();
+=====================================================================
+Found a 32 line (177 tokens) duplication in the following files: 
+Starting at line 40 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteProfileStage.java
+Starting at line 41 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/SelectProfileStage.java
+
+	public DeleteProfileStage(MainController controller) {
+		
+		this.buildScene(controller);
+		this.setScene(scene);
+		this.show();
+		
+	}
+	
+	/**
+     * costruisce la scene
+     * 
+     * @param controller
+     *     riferimento al controller
+     *  
+     */
+	private void buildScene(MainController controller) {
+		
+		this.grid = new GridPane();
+		
+		this.names = FXCollections.observableArrayList();
+		controller.getPList().stream().map(p -> p.getName()).forEach(s -> names.add(s));
+		
+		this.grid.setAlignment(Pos.CENTER);
+		this.grid.setHgap(10);
+		this.grid.setVgap(10);
+		this.grid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.title = new Text("Select Profile");
+		this.title.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+		this.grid.add(title, 0, 0, 2, 1);
+		
+		this.profiles = new Label("Profiles:");
+=====================================================================
+Found a 14 line (132 tokens) duplication in the following files: 
+Starting at line 169 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddProfileStage.java
+Starting at line 158 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditProfileStage.java
+
+		String n = this.nameTF.getText();
+		double mKc = (double) Double.parseDouble(this.maintainingKcalsTF.getText());
+		double weight = (double) Double.parseDouble(this.weightTF.getText());
+		if(this.ectoRB.isSelected()){
+			this.profile = new Profile(n, mKc, new Ectomorph(), weight);
+		}
+		if(this.mesoRB.isSelected()){
+			this.profile = new Profile(n, mKc, new Mesomorph(), weight);
+		}
+		if(this.endoRB.isSelected()){
+			this.profile = new Profile(n, mKc, new Endomorph(), weight);
+		}
+	}
+}
+=====================================================================
+Found a 26 line (130 tokens) duplication in the following files: 
+Starting at line 64 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 66 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		this.buildFirstScene(controller);
+		this.setScene(firstScene);
+		this.show();
+		
+	}
+	
+	/**
+     * costruisce la prima scene 
+     * 
+     * @param controller
+     *     riferimento al controller
+     *  
+     */
+	private void buildFirstScene(MainController controller){
+		
+		this.firstGrid = new GridPane();
+		
+		this.dietsOList = FXCollections.observableArrayList();
+		controller.getCurrentProfile().getDiets().stream().map(d -> d.getName()).forEach(s -> dietsOList.add(s));
+		
+		this.firstGrid.setAlignment(Pos.CENTER);
+		this.firstGrid.setHgap(10);
+		this.firstGrid.setVgap(10);
+		this.firstGrid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.firstTitle = new Text("Select Diet to modify");
+=====================================================================
+Found a 23 line (90 tokens) duplication in the following files: 
+Starting at line 52 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodValuesStage.java
+Starting at line 55 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddProfileStage.java
+Starting at line 45 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditDietStage.java
+Starting at line 57 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditProfileStage.java
+
+	public AddFoodValuesStage(MainController controller){
+
+		this.buildScene(controller);
+		this.setScene(scene);
+		this.show();
+	}
+	
+	/**
+     * costruisce la scene
+     * 
+     * @param controller
+     *     riferimento al controller
+     *  
+     */
+	private void buildScene(MainController controller){
+	    this.grid = new GridPane();
+        
+        this.grid.setAlignment(Pos.CENTER);
+        this.grid.setHgap(10);
+        this.grid.setVgap(10);
+        this.grid.setPadding(new Insets(25, 25, 25, 25));
+            
+        this.title = new Text("New Food");
+=====================================================================
+Found a 12 line (86 tokens) duplication in the following files: 
+Starting at line 89 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 91 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		this.firstTitle = new Text("Select Diet to modify");
+		this.firstTitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+		this.firstGrid.add(firstTitle, 0, 0, 2, 1);
+		
+		this.diets = new Label("Diets:");
+		firstGrid.add(diets, 0, 1);
+		
+		this.dietsCB = new ComboBox<String>();
+		this.dietsCB.setItems(dietsOList);
+		firstGrid.add(dietsCB, 1, 1);
+		
+		this.nextB = new Button("NEXT");
+=====================================================================
+Found a 8 line (84 tokens) duplication in the following files: 
+Starting at line 143 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodValuesStage.java
+Starting at line 81 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+
+		String name = nameTF.getText();
+		double carbs = (double) Double.parseDouble(carbsTF.getText());
+		double fats = (double) Double.parseDouble(fatsTF.getText());
+		double prots = (double) Double.parseDouble(protsTF.getText());
+		double fibers = (double) Double.parseDouble(fibersTF.getText());
+		
+		food = new FoodValues(name, carbs, fats, prots, fibers);
+	}
+=====================================================================
+Found a 7 line (76 tokens) duplication in the following files: 
+Starting at line 113 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodValuesStage.java
+Starting at line 199 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+
+                controller.checkEmptyField(this.fatsTF.getText()) || 
+                controller.checkEmptyField(this.fibersTF.getText()) ||
+                controller.checkValue(this.carbsTF.getText()) ||
+                controller.checkValue(this.fatsTF.getText()) ||
+                controller.checkValue(this.protsTF.getText()) ||
+                controller.checkValue(this.fibersTF.getText())) {
+                controller.buildAlert("Not all fields are filled");
+=====================================================================
+Found a 19 line (71 tokens) duplication in the following files: 
+Starting at line 139 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+Starting at line 113 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+
+		this.firstScene = new Scene(firstGrid, 200, 150);
+	}
+	
+	/**
+     * costruisce la seconda
+     * 
+     * @param controller
+     *     riferimento al controller
+     *  
+     */
+	private void buildSecondScene(MainController controller){
+		this.secondGrid = new GridPane();
+		
+		this.secondGrid.setAlignment(Pos.CENTER);
+		this.secondGrid.setHgap(10);
+		this.secondGrid.setVgap(10);
+		this.secondGrid.setPadding(new Insets(25, 25, 25, 25));
+			
+		this.secondTitle = new Text("New Food");
+=====================================================================
+Found a 8 line (68 tokens) duplication in the following files: 
+Starting at line 64 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodOnDietStage.java
+Starting at line 60 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteProfileStage.java
+Starting at line 61 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/SelectProfileStage.java
+
+		controller.getFVList().stream().map(fv -> fv.getName()).forEach(s -> names.add(s));
+		
+		this.grid.setAlignment(Pos.CENTER);
+		this.grid.setHgap(10);
+		this.grid.setVgap(10);
+		this.grid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.title = new Text("Select Food");
+=====================================================================
+Found a 8 line (63 tokens) duplication in the following files: 
+Starting at line 78 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddProfileStage.java
+Starting at line 69 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditDietStage.java
+
+        this.title = new Text("New Profile");
+        this.title.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+        this.grid.add(title, 0, 0, 2, 1);
+        
+        this.name = new Label("Name:");
+        grid.add(name, 0, 1);
+        
+        this.nameTF = new TextField();
+=====================================================================
+Found a 16 line (62 tokens) duplication in the following files: 
+Starting at line 161 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddDietStage.java
+Starting at line 139 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+Starting at line 113 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+
+		this.firstScene = new Scene(firstGrid, 250, 200);
+	}
+	
+	/**
+     * costruisce la seconda scena
+     * 
+     * @param controller
+     *        riferimento al controller
+     * 
+     */
+	private void buildSecondScene(MainController controller){
+		this.secondGrid = new GridPane();
+		this.secondGrid.setAlignment(Pos.CENTER);
+		this.secondGrid.setHgap(10);
+		this.secondGrid.setVgap(10);
+		this.secondGrid.setPadding(new Insets(25, 25, 25, 25));
+=====================================================================
+Found a 7 line (61 tokens) duplication in the following files: 
+Starting at line 89 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DietsScene.java
+Starting at line 85 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ProfilesScene.java
+
+		table = new TableView<Diet>();
+		table.setItems(list);
+		table.setEditable(false);
+		
+				
+		table.getColumns().addAll(column1, column2, column3, column4);
+	    table.getColumns().forEach(c -> c.prefWidthProperty().bind(table.widthProperty().divide(4)));
+=====================================================================
+Found a 63 line (58 tokens) duplication in the following files: 
+Starting at line 171 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/model/Diet.java
+Starting at line 62 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/model/Meal.java
+
+	}
+	
+	/**
+     * Metodo getter delle calorie totali di una dieta
+     * 
+     * @return
+     *     restituisce le calorie totali di una dieta
+     * 
+     */
+	public double getTotKcals(){
+		return this.totKcals;
+	}
+	
+	/**
+     * Metodo getter dei carboidrati totali di una dieta
+     * 
+     * @return
+     *     restituisce dei carboidrati totali di una dieta
+     * 
+     */
+	public double getTotCarbs(){
+		return this.totCarbs;
+	}
+	
+	/**
+     * Metodo getter dei grassi totali di una dieta
+     * 
+     * @return
+     *     restituisce dei grassi totali di una dieta
+     * 
+     */
+	public double getTotFats(){
+		return this.totFats;
+	}
+	
+	/**
+     * Metodo getter delle proteine totali di una dieta
+     * 
+     * @return
+     *     restituisce le proteine totali di una dieta
+     * 
+     */
+	public double getTotProts(){
+		return this.totProts;
+	}
+	
+	/**
+     * Metodo getter delle fibre totali di una dieta
+     * 
+     * @return
+     *     restituisce le fibre totali di una dieta
+     * 
+     */
+	public double getTotFibers(){
+		return this.totFibers;
+	}
+	
+	/**
+     * Metodo privato che esegue un calcolo dei valori totali di una dieta.
+     * I valori sono carboidrati, grassi, proteine, fibre e kcal.
+     * 
+     */
+	private void processValues(){
+=====================================================================
+Found a 8 line (57 tokens) duplication in the following files: 
+Starting at line 64 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodOnDietStage.java
+Starting at line 65 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteDietStage.java
+Starting at line 61 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteFoodValuesStage.java
+Starting at line 60 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteProfileStage.java
+Starting at line 61 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/SelectProfileStage.java
+
+		controller.getFVList().stream().map(fv -> fv.getName()).forEach(s -> names.add(s));
+		
+		this.grid.setAlignment(Pos.CENTER);
+		this.grid.setHgap(10);
+		this.grid.setVgap(10);
+		this.grid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.title = new Text("Select Food");
+=====================================================================
+Found a 8 line (57 tokens) duplication in the following files: 
+Starting at line 78 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddProfileStage.java
+Starting at line 69 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditDietStage.java
+Starting at line 81 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditProfileStage.java
+
+        this.title = new Text("New Profile");
+        this.title.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+        this.grid.add(title, 0, 0, 2, 1);
+        
+        this.name = new Label("Name:");
+        grid.add(name, 0, 1);
+        
+        this.nameTF = new TextField();
+=====================================================================
+Found a 8 line (57 tokens) duplication in the following files: 
+Starting at line 113 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+Starting at line 82 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 84 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		controller.getFVList().stream().map(fv -> fv.getName()).forEach(s -> foodNames.add(s));
+		
+		this.firstGrid.setAlignment(Pos.CENTER);
+		this.firstGrid.setHgap(10);
+		this.firstGrid.setVgap(10);
+		this.firstGrid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.firstTitle = new Text("Select Food to edit");
+=====================================================================
+Found a 8 line (57 tokens) duplication in the following files: 
+Starting at line 157 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+Starting at line 133 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+
+		this.secondTitle = new Text("New Food");
+		this.secondTitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+		this.secondGrid.add(secondTitle, 0, 0, 2, 1);
+			
+		this.name = new Label("Name:");
+		secondGrid.add(name, 0, 1);
+			
+		this.nameLabel = new Label(this.selectedFood.get().getName());
+=====================================================================
+Found a 7 line (56 tokens) duplication in the following files: 
+Starting at line 105 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 104 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+			this.modifiedDiet = controller.getCurrentProfile().getDiets().stream()
+					.filter(d -> d.getName().equals(dietsCB.getValue()))
+					.findFirst();
+			this.buildSecondScene(controller);
+			this.setScene(secondScene);
+		});
+		firstGrid.add(nextB, 1, 2);
+=====================================================================
+Found a 18 line (53 tokens) duplication in the following files: 
+Starting at line 53 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DietsScene.java
+Starting at line 50 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ProfilesScene.java
+
+		vBox.getChildren().add(new MenuItem(DietCreator.DELETEDIET, controller));
+		vBox.getChildren().add(new MenuItem(DietCreator.MENU, controller));
+		
+	}
+
+	/**
+     * metodo che inizializza il layout della scene
+     * 
+     * @param controller
+     *     riferimento al controller
+     *  
+     */
+	@SuppressWarnings("unchecked")
+    private static BorderPane init(MainController controller) throws Exception{
+		
+		layout = new BorderPane();
+
+		list =  FXCollections.observableArrayList(controller.getCurrentProfile().getDiets());
+=====================================================================
+Found a 8 line (52 tokens) duplication in the following files: 
+Starting at line 114 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddDietStage.java
+Starting at line 113 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditFoodValuesStage.java
+Starting at line 82 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 84 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		this.firstGrid = new GridPane();
+		
+		this.firstGrid.setAlignment(Pos.CENTER);
+		this.firstGrid.setHgap(10);
+		this.firstGrid.setVgap(10);
+		this.firstGrid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.firstTitle = new Text("What's your target?");
+=====================================================================
+Found a 8 line (52 tokens) duplication in the following files: 
+Starting at line 64 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodOnDietStage.java
+Starting at line 67 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodValuesStage.java
+Starting at line 71 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddProfileStage.java
+Starting at line 65 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteDietStage.java
+Starting at line 61 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteFoodValuesStage.java
+Starting at line 60 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteProfileStage.java
+Starting at line 62 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditDietStage.java
+Starting at line 74 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/EditProfileStage.java
+Starting at line 61 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/SelectProfileStage.java
+
+		controller.getFVList().stream().map(fv -> fv.getName()).forEach(s -> names.add(s));
+		
+		this.grid.setAlignment(Pos.CENTER);
+		this.grid.setHgap(10);
+		this.grid.setVgap(10);
+		this.grid.setPadding(new Insets(25, 25, 25, 25));
+		
+		this.title = new Text("Select Food");
+=====================================================================
+Found a 6 line (52 tokens) duplication in the following files: 
+Starting at line 62 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteDietStage.java
+Starting at line 79 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ModifyDietStage.java
+Starting at line 81 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/ViewDietStage.java
+
+		this.grid = new GridPane();
+		
+		this.dietsOList = FXCollections.observableArrayList();
+		controller.getCurrentProfile().getDiets().stream().map(d -> d.getName()).forEach(s -> dietsOList.add(s));
+		
+		this.grid.setAlignment(Pos.CENTER);
+=====================================================================
+Found a 21 line (50 tokens) duplication in the following files: 
+Starting at line 44 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/AddFoodOnDietStage.java
+Starting at line 40 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/DeleteProfileStage.java
+Starting at line 41 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-dietcreator-avanzato/src/view/SelectProfileStage.java
+
+	public AddFoodOnDietStage(MainController controller){
+		
+		this.buildScene(controller);
+		this.setScene(scene);
+		this.show();
+		
+	}
+	
+	/**
+     * costruisce la scena
+     * 
+     * @param controller
+     *        riferimento al controller
+     * 
+     */
+	private void buildScene(MainController controller){
+		
+		this.grid = new GridPane();
+		
+		this.names = FXCollections.observableArrayList();
+		controller.getFVList().stream().map(fv -> fv.getName()).forEach(s -> names.add(s));

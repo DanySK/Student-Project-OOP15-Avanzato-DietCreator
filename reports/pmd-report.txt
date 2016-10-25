@@ -1,0 +1,532 @@
+src/controller/MainController.java:27:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:27:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:36:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:46:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:55:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:65:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:65:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:71:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:71:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:81:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:81:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:90:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:90:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:99:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:109:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:109:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:118:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:118:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:134:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:134:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:143:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:143:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:152:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:169:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:175:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:184:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:184:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:197:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:197:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:211:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainController.java:211:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:218:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:225:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:236:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:244:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:252:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:260:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:268:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:276:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:287:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:301:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:312:	Avoid modifiers which are implied by the context
+src/controller/MainControllerImpl.java:4:	Avoid unused imports such as 'controller.MainControllerImpl'
+src/controller/MainControllerImpl.java:4:	No need to import a type that lives in the same package
+src/controller/MainControllerImpl.java:46:	Private field 'stage' could be made final; it is only initialized in the declaration or constructor.
+src/controller/MainControllerImpl.java:47:	Perhaps 'alert' could be replaced by a local variable.
+src/controller/MainControllerImpl.java:50:	Private field 'rM' could be made final; it is only initialized in the declaration or constructor.
+src/controller/MainControllerImpl.java:77:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:77:	Parameter 'stage' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:84:	Overridable method 'loadProfiles' called during object construction
+src/controller/MainControllerImpl.java:85:	Overridable method 'loadFoodValues' called during object construction
+src/controller/MainControllerImpl.java:92:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:92:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:172:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:177:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:198:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:204:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:204:	Parameter 'profile' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:214:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:214:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:215:	Local variable 'profileToDelete' could be declared final
+src/controller/MainControllerImpl.java:225:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:225:	Parameter 'profile' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:232:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:232:	Parameter 'food' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:242:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:242:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:243:	Local variable 'foodVToDelete' could be declared final
+src/controller/MainControllerImpl.java:249:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:249:	Parameter 'food' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:249:	Parameter 'oldFood' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:265:	Parameter 'kcals' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:265:	Parameter 'target' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:289:	Parameter 'target' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:317:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:317:	Parameter 'diet' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:323:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:323:	Parameter 'modDiet' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:323:	Parameter 'oldDiet' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:339:	Local variable 'meal' could be declared final
+src/controller/MainControllerImpl.java:439:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:439:	Parameter 'quantity' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:440:	Local variable 'food' could be declared final
+src/controller/MainControllerImpl.java:441:	Local variable 'fOD' could be declared final
+src/controller/MainControllerImpl.java:446:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/MainControllerImpl.java:453:	Parameter 'text' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:463:	Parameter 'text' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:464:	Avoid unnecessary if..then..else statements when returning booleans
+src/controller/MainControllerImpl.java:472:	Parameter 'name' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:472:	Parameter 'type' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:487:	Local variable 'alert' could be declared final
+src/controller/MainControllerImpl.java:492:	Local variable 'result' could be declared final
+src/controller/MainControllerImpl.java:493:	Avoid unnecessary if..then..else statements when returning booleans
+src/controller/MainControllerImpl.java:501:	Parameter 'text' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:504:	Avoid unnecessary if..then..else statements when returning booleans
+src/controller/ResourceManager.java:26:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/ResourceManager.java:40:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/ResourceManager.java:54:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/ResourceManagerImpl.java:28:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/controller/ResourceManagerImpl.java:28:	Parameter 'data' is not assigned and could be declared final
+src/controller/ResourceManagerImpl.java:28:	Parameter 'fileName' is not assigned and could be declared final
+src/controller/ResourceManagerImpl.java:29:	Local variable 'folder' could be declared final
+src/controller/ResourceManagerImpl.java:33:	Local variable 'file' could be declared final
+src/controller/ResourceManagerImpl.java:46:	Parameter 'fileName' is not assigned and could be declared final
+src/controller/ResourceManagerImpl.java:49:	Local variable 'file' could be declared final
+src/controller/ResourceManagerImpl.java:60:	Parameter 'fileName' is not assigned and could be declared final
+src/controller/ResourceManagerImpl.java:63:	Local variable 'file' could be declared final
+src/main/DietCreator.java:67:	Perhaps 'controller' could be replaced by a local variable.
+src/main/DietCreator.java:69:	Perhaps 'stage' could be replaced by a local variable.
+src/main/DietCreator.java:70:	Perhaps 'menu' could be replaced by a local variable.
+src/main/DietCreator.java:72:	Parameter 'args' is not assigned and could be declared final
+src/main/DietCreator.java:85:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/DietCreator.java:85:	Parameter 'stage' is not assigned and could be declared final
+src/model/Diet.java:21:	Private field 'target' could be made final; it is only initialized in the declaration or constructor.
+src/model/Diet.java:22:	Private field 'initialWeight' could be made final; it is only initialized in the declaration or constructor.
+src/model/Diet.java:45:	Parameter 'initialWeight' is not assigned and could be declared final
+src/model/Diet.java:45:	Parameter 'name' is not assigned and could be declared final
+src/model/Diet.java:45:	Parameter 'target' is not assigned and could be declared final
+src/model/Diet.java:67:	Parameter 'number' is not assigned and could be declared final
+src/model/Diet.java:89:	Parameter 'name' is not assigned and could be declared final
+src/model/Diet.java:113:	Parameter 'list' is not assigned and could be declared final
+src/model/Diet.java:125:	Parameter 'meal' is not assigned and could be declared final
+src/model/Diet.java:169:	Parameter 'fW' is not assigned and could be declared final
+src/model/Ectomorph.java:16:	Private field 'traitsArray' could be made final; it is only initialized in the declaration or constructor.
+src/model/Ectomorph.java:23:	It is a good practice to call super() in a constructor
+src/model/Endomorph.java:15:	Private field 'traitsArray' could be made final; it is only initialized in the declaration or constructor.
+src/model/Endomorph.java:21:	It is a good practice to call super() in a constructor
+src/model/Food.java:16:	Avoid modifiers which are implied by the context
+src/model/Food.java:25:	Avoid modifiers which are implied by the context
+src/model/Food.java:34:	Avoid modifiers which are implied by the context
+src/model/Food.java:43:	Avoid modifiers which are implied by the context
+src/model/Food.java:52:	Avoid modifiers which are implied by the context
+src/model/Food.java:61:	Avoid modifiers which are implied by the context
+src/model/Food.java:70:	Avoid modifiers which are implied by the context
+src/model/Food.java:78:	Avoid modifiers which are implied by the context
+src/model/Food.java:87:	Avoid modifiers which are implied by the context
+src/model/FoodOnDiet.java:14:	Private field 'food' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:15:	Private field 'quantity' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:16:	Private field 'name' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:18:	Private field 'carbs' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:19:	Private field 'fats' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:20:	Private field 'prots' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:21:	Private field 'fibers' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:22:	Private field 'totKcals' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodOnDiet.java:33:	Parameter 'food' is not assigned and could be declared final
+src/model/FoodOnDiet.java:33:	Parameter 'quantity' is not assigned and could be declared final
+src/model/FoodOnDiet.java:37:	Overridable method 'processCarbs' called during object construction
+src/model/FoodOnDiet.java:38:	Overridable method 'processFats' called during object construction
+src/model/FoodOnDiet.java:39:	Overridable method 'processProts' called during object construction
+src/model/FoodOnDiet.java:40:	Overridable method 'processFibers' called during object construction
+src/model/FoodOnDiet.java:41:	Overridable method 'processTotKcals' called during object construction
+src/model/FoodValues.java:29:	Private field 'totKcals' could be made final; it is only initialized in the declaration or constructor.
+src/model/FoodValues.java:51:	Parameter 'carbs' is not assigned and could be declared final
+src/model/FoodValues.java:51:	Parameter 'fats' is not assigned and could be declared final
+src/model/FoodValues.java:51:	Parameter 'fibers' is not assigned and could be declared final
+src/model/FoodValues.java:51:	Parameter 'name' is not assigned and could be declared final
+src/model/FoodValues.java:51:	Parameter 'prots' is not assigned and could be declared final
+src/model/FoodValues.java:63:	Overridable method 'processTotKcals' called during object construction
+src/model/FoodValues.java:74:	Parameter 'carbs' is not assigned and could be declared final
+src/model/FoodValues.java:82:	Parameter 'fats' is not assigned and could be declared final
+src/model/FoodValues.java:90:	Parameter 'prots' is not assigned and could be declared final
+src/model/FoodValues.java:98:	Parameter 'fibers' is not assigned and could be declared final
+src/model/FoodValues.java:106:	Parameter 'carbsKCals' is not assigned and could be declared final
+src/model/FoodValues.java:114:	Parameter 'fatsKCals' is not assigned and could be declared final
+src/model/FoodValues.java:122:	Parameter 'protsKCals' is not assigned and could be declared final
+src/model/FoodValues.java:130:	Parameter 'name' is not assigned and could be declared final
+src/model/Meal.java:16:	Private field 'list' could be made final; it is only initialized in the declaration or constructor.
+src/model/Meal.java:17:	Private field 'number' could be made final; it is only initialized in the declaration or constructor.
+src/model/Meal.java:33:	Parameter 'list' is not assigned and could be declared final
+src/model/Meal.java:33:	Parameter 'number' is not assigned and could be declared final
+src/model/Mesomorph.java:15:	Private field 'traitsArray' could be made final; it is only initialized in the declaration or constructor.
+src/model/Mesomorph.java:23:	It is a good practice to call super() in a constructor
+src/model/Profile.java:17:	Private field 'weight' could be made final; it is only initialized in the declaration or constructor.
+src/model/Profile.java:18:	Private field 'diets' could be made final; it is only initialized in the declaration or constructor.
+src/model/Profile.java:19:	Private field 'somatotype' could be made final; it is only initialized in the declaration or constructor.
+src/model/Profile.java:20:	Private field 'somatotypeName' could be made final; it is only initialized in the declaration or constructor.
+src/model/Profile.java:38:	Parameter 'kcals' is not assigned and could be declared final
+src/model/Profile.java:38:	Parameter 'name' is not assigned and could be declared final
+src/model/Profile.java:38:	Parameter 'somatotype' is not assigned and could be declared final
+src/model/Profile.java:38:	Parameter 'weight' is not assigned and could be declared final
+src/model/Profile.java:63:	Parameter 'name' is not assigned and could be declared final
+src/model/Profile.java:83:	Parameter 'maintainingKCals' is not assigned and could be declared final
+src/model/Profile.java:93:	Parameter 'diet' is not assigned and could be declared final
+src/view/AddDietStage.java:41:	Perhaps 'kcals' could be replaced by a local variable.
+src/view/AddDietStage.java:42:	Perhaps 'okcals' could be replaced by a local variable.
+src/view/AddDietStage.java:46:	Perhaps 'firstTitle' could be replaced by a local variable.
+src/view/AddDietStage.java:47:	Perhaps 'group' could be replaced by a local variable.
+src/view/AddDietStage.java:48:	Perhaps 'loseRB' could be replaced by a local variable.
+src/view/AddDietStage.java:49:	Perhaps 'maintainRB' could be replaced by a local variable.
+src/view/AddDietStage.java:50:	Perhaps 'gainRB' could be replaced by a local variable.
+src/view/AddDietStage.java:51:	Perhaps 'firstB' could be replaced by a local variable.
+src/view/AddDietStage.java:52:	Perhaps 'firstGrid' could be replaced by a local variable.
+src/view/AddDietStage.java:57:	Perhaps 'cBox' could be replaced by a local variable.
+src/view/AddDietStage.java:58:	Perhaps 'secondB' could be replaced by a local variable.
+src/view/AddDietStage.java:59:	Perhaps 'infoB' could be replaced by a local variable.
+src/view/AddDietStage.java:60:	Perhaps 'secondGrid' could be replaced by a local variable.
+src/view/AddDietStage.java:64:	Perhaps 'table' could be replaced by a local variable.
+src/view/AddDietStage.java:65:	Perhaps 'layout' could be replaced by a local variable.
+src/view/AddDietStage.java:66:	Perhaps 'vBox' could be replaced by a local variable.
+src/view/AddDietStage.java:67:	Perhaps 'refreshB' could be replaced by a local variable.
+src/view/AddDietStage.java:68:	Perhaps 'saveB' could be replaced by a local variable.
+src/view/AddDietStage.java:69:	Perhaps 'list' could be replaced by a local variable.
+src/view/AddDietStage.java:74:	Perhaps 'element' could be replaced by a local variable.
+src/view/AddDietStage.java:75:	Perhaps 'actualValue' could be replaced by a local variable.
+src/view/AddDietStage.java:76:	Perhaps 'targetValue' could be replaced by a local variable.
+src/view/AddDietStage.java:81:	Perhaps 'targetCarbs' could be replaced by a local variable.
+src/view/AddDietStage.java:82:	Perhaps 'targetFats' could be replaced by a local variable.
+src/view/AddDietStage.java:83:	Perhaps 'targetProts' could be replaced by a local variable.
+src/view/AddDietStage.java:84:	Perhaps 'targetKcals' could be replaced by a local variable.
+src/view/AddDietStage.java:85:	Perhaps 'gramsCarbs' could be replaced by a local variable.
+src/view/AddDietStage.java:86:	Perhaps 'gramsFats' could be replaced by a local variable.
+src/view/AddDietStage.java:87:	Perhaps 'gramsProts' could be replaced by a local variable.
+src/view/AddDietStage.java:88:	Perhaps 'kcalsLabel' could be replaced by a local variable.
+src/view/AddDietStage.java:97:	It is a good practice to call super() in a constructor
+src/view/AddDietStage.java:97:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:113:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:122:	The String literal "Tahoma" appears 6 times in this file; the first occurrence is on line 122
+src/view/AddDietStage.java:171:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:203:	Local variable 'diffKcals' could be declared final
+src/view/AddDietStage.java:222:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:228:	Local variable 'column1' could be declared final
+src/view/AddDietStage.java:231:	Local variable 'column2' could be declared final
+src/view/AddDietStage.java:234:	Local variable 'column3' could be declared final
+src/view/AddDietStage.java:237:	Local variable 'column4' could be declared final
+src/view/AddDietStage.java:240:	Local variable 'column5' could be declared final
+src/view/AddDietStage.java:243:	Local variable 'column6' could be declared final
+src/view/AddDietStage.java:265:	Local variable 'sp1' could be declared final
+src/view/AddDietStage.java:286:	Local variable 'sp2' could be declared final
+src/view/AddDietStage.java:300:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:327:	Do not add empty strings
+src/view/AddDietStage.java:329:	Do not add empty strings
+src/view/AddDietStage.java:331:	Do not add empty strings
+src/view/AddDietStage.java:333:	Do not add empty strings
+src/view/AddDietStage.java:344:	Do not add empty strings
+src/view/AddDietStage.java:369:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddDietStage.java:403:	Parameter 'decimal' is not assigned and could be declared final
+src/view/AddDietStage.java:403:	Parameter 'value' is not assigned and could be declared final
+src/view/AddDietStage.java:404:	Avoid using if statements without curly braces
+src/view/AddDietStage.java:406:	Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal
+src/view/AddFoodOnDietStage.java:26:	Perhaps 'grid' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:28:	Perhaps 'title' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:29:	Perhaps 'foods' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:30:	Perhaps 'quantity' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:31:	Perhaps 'foodsCB' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:32:	Perhaps 'quantityTF' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:33:	Perhaps 'okB' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:35:	Perhaps 'names' could be replaced by a local variable.
+src/view/AddFoodOnDietStage.java:44:	It is a good practice to call super() in a constructor
+src/view/AddFoodOnDietStage.java:44:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddFoodOnDietStage.java:59:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddFoodOnDietStage.java:94:	Local variable 'name' could be declared final
+src/view/AddFoodOnDietStage.java:96:	Local variable 'quantity' could be declared final
+src/view/AddFoodValuesStage.java:25:	Perhaps 'grid' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:31:	Perhaps 'title' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:32:	Perhaps 'name' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:33:	Perhaps 'carbs' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:34:	Perhaps 'fats' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:35:	Perhaps 'proteins' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:36:	Perhaps 'fibers' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:43:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/AddFoodValuesStage.java:52:	It is a good practice to call super() in a constructor
+src/view/AddFoodValuesStage.java:52:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddFoodValuesStage.java:66:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddFoodValuesStage.java:143:	Local variable 'name' could be declared final
+src/view/AddFoodValuesStage.java:144:	Local variable 'carbs' could be declared final
+src/view/AddFoodValuesStage.java:145:	Local variable 'fats' could be declared final
+src/view/AddFoodValuesStage.java:146:	Local variable 'prots' could be declared final
+src/view/AddFoodValuesStage.java:147:	Local variable 'fibers' could be declared final
+src/view/AddMealStage.java:28:	Perhaps 'title' could be replaced by a local variable.
+src/view/AddMealStage.java:29:	Perhaps 'table' could be replaced by a local variable.
+src/view/AddMealStage.java:30:	Perhaps 'layout' could be replaced by a local variable.
+src/view/AddMealStage.java:31:	Perhaps 'vBox' could be replaced by a local variable.
+src/view/AddMealStage.java:32:	Perhaps 'list' could be replaced by a local variable.
+src/view/AddMealStage.java:34:	Perhaps 'refreshB' could be replaced by a local variable.
+src/view/AddMealStage.java:35:	Perhaps 'saveB' could be replaced by a local variable.
+src/view/AddMealStage.java:44:	It is a good practice to call super() in a constructor
+src/view/AddMealStage.java:44:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddMealStage.java:61:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddMealStage.java:71:	Local variable 'column1' could be declared final
+src/view/AddMealStage.java:74:	Local variable 'column2' could be declared final
+src/view/AddMealStage.java:77:	Local variable 'column3' could be declared final
+src/view/AddMealStage.java:80:	Local variable 'column4' could be declared final
+src/view/AddMealStage.java:83:	Local variable 'column5' could be declared final
+src/view/AddMealStage.java:86:	Local variable 'column6' could be declared final
+src/view/AddMealStage.java:89:	Local variable 'column7' could be declared final
+src/view/AddMealStage.java:108:	Local variable 'sp1' could be declared final
+src/view/AddMealStage.java:120:	Local variable 'sp2' could be declared final
+src/view/AddProfileStage.java:25:	Perhaps 'grid' could be replaced by a local variable.
+src/view/AddProfileStage.java:31:	Perhaps 'title' could be replaced by a local variable.
+src/view/AddProfileStage.java:32:	Perhaps 'name' could be replaced by a local variable.
+src/view/AddProfileStage.java:33:	Perhaps 'maintainingKcals' could be replaced by a local variable.
+src/view/AddProfileStage.java:34:	Perhaps 'somatotype' could be replaced by a local variable.
+src/view/AddProfileStage.java:35:	Perhaps 'weight' could be replaced by a local variable.
+src/view/AddProfileStage.java:39:	Perhaps 'group' could be replaced by a local variable.
+src/view/AddProfileStage.java:44:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/AddProfileStage.java:45:	Perhaps 'helpB' could be replaced by a local variable.
+src/view/AddProfileStage.java:46:	Perhaps 'infoB' could be replaced by a local variable.
+src/view/AddProfileStage.java:55:	It is a good practice to call super() in a constructor
+src/view/AddProfileStage.java:55:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddProfileStage.java:70:	Parameter 'controller' is not assigned and could be declared final
+src/view/AddProfileStage.java:169:	Local variable 'n' could be declared final
+src/view/AddProfileStage.java:170:	Local variable 'mKc' could be declared final
+src/view/AddProfileStage.java:171:	Local variable 'weight' could be declared final
+src/view/DeleteDietStage.java:29:	Perhaps 'grid' could be replaced by a local variable.
+src/view/DeleteDietStage.java:30:	Perhaps 'title' could be replaced by a local variable.
+src/view/DeleteDietStage.java:31:	Perhaps 'diets' could be replaced by a local variable.
+src/view/DeleteDietStage.java:32:	Perhaps 'dietsCB' could be replaced by a local variable.
+src/view/DeleteDietStage.java:33:	Perhaps 'dietsOList' could be replaced by a local variable.
+src/view/DeleteDietStage.java:34:	Perhaps 'okB' could be replaced by a local variable.
+src/view/DeleteDietStage.java:45:	It is a good practice to call super() in a constructor
+src/view/DeleteDietStage.java:45:	Parameter 'controller' is not assigned and could be declared final
+src/view/DeleteDietStage.java:60:	Parameter 'controller' is not assigned and could be declared final
+src/view/DeleteFoodValuesStage.java:26:	Perhaps 'grid' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:27:	Perhaps 'title' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:28:	Perhaps 'foods' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:29:	Perhaps 'foodsCB' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:30:	Perhaps 'foodNames' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:31:	Perhaps 'okB' could be replaced by a local variable.
+src/view/DeleteFoodValuesStage.java:41:	It is a good practice to call super() in a constructor
+src/view/DeleteFoodValuesStage.java:41:	Parameter 'controller' is not assigned and could be declared final
+src/view/DeleteFoodValuesStage.java:56:	Parameter 'controller' is not assigned and could be declared final
+src/view/DeleteProfileStage.java:25:	Perhaps 'grid' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:27:	Perhaps 'title' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:28:	Perhaps 'profiles' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:29:	Perhaps 'profilesCB' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:30:	Perhaps 'okB' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:31:	Perhaps 'names' could be replaced by a local variable.
+src/view/DeleteProfileStage.java:40:	It is a good practice to call super() in a constructor
+src/view/DeleteProfileStage.java:40:	Parameter 'controller' is not assigned and could be declared final
+src/view/DeleteProfileStage.java:55:	Parameter 'controller' is not assigned and could be declared final
+src/view/DietsScene.java:45:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/view/DietsScene.java:45:	Avoid unused constructor parameters such as 'root'.
+src/view/DietsScene.java:45:	Parameter 'controller' is not assigned and could be declared final
+src/view/DietsScene.java:45:	Parameter 'height' is not assigned and could be declared final
+src/view/DietsScene.java:45:	Parameter 'root' is not assigned and could be declared final
+src/view/DietsScene.java:45:	Parameter 'width' is not assigned and could be declared final
+src/view/DietsScene.java:66:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/view/DietsScene.java:66:	Parameter 'controller' is not assigned and could be declared final
+src/view/DietsScene.java:77:	Local variable 'column1' could be declared final
+src/view/DietsScene.java:80:	Local variable 'column2' could be declared final
+src/view/DietsScene.java:83:	Local variable 'column3' could be declared final
+src/view/DietsScene.java:86:	Local variable 'column4' could be declared final
+src/view/EditDietStage.java:24:	Perhaps 'grid' could be replaced by a local variable.
+src/view/EditDietStage.java:26:	Perhaps 'title' could be replaced by a local variable.
+src/view/EditDietStage.java:27:	Perhaps 'name' could be replaced by a local variable.
+src/view/EditDietStage.java:28:	Perhaps 'target' could be replaced by a local variable.
+src/view/EditDietStage.java:29:	Perhaps 'targetLabel' could be replaced by a local variable.
+src/view/EditDietStage.java:30:	Perhaps 'initWeight' could be replaced by a local variable.
+src/view/EditDietStage.java:31:	Perhaps 'finWeight' could be replaced by a local variable.
+src/view/EditDietStage.java:32:	Perhaps 'nameTF' could be replaced by a local variable.
+src/view/EditDietStage.java:33:	Perhaps 'initWeightL' could be replaced by a local variable.
+src/view/EditDietStage.java:34:	Perhaps 'finWeightL' could be replaced by a local variable.
+src/view/EditDietStage.java:36:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/EditDietStage.java:45:	It is a good practice to call super() in a constructor
+src/view/EditDietStage.java:45:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditDietStage.java:60:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditDietStage.java:89:	Do not add empty strings
+src/view/EditDietStage.java:95:	Do not add empty strings
+src/view/EditFoodValuesStage.java:36:	Perhaps 'firstGrid' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:38:	Perhaps 'firstTitle' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:39:	Perhaps 'foods' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:41:	Perhaps 'foodNames' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:42:	Perhaps 'okB' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:45:	Perhaps 'secondGrid' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:47:	Perhaps 'secondTitle' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:48:	Perhaps 'name' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:49:	Perhaps 'carbs' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:50:	Perhaps 'fats' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:51:	Perhaps 'proteins' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:52:	Perhaps 'fibers' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:59:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/EditFoodValuesStage.java:68:	It is a good practice to call super() in a constructor
+src/view/EditFoodValuesStage.java:68:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditFoodValuesStage.java:81:	Local variable 'name' could be declared final
+src/view/EditFoodValuesStage.java:82:	Local variable 'carbs' could be declared final
+src/view/EditFoodValuesStage.java:83:	Local variable 'fats' could be declared final
+src/view/EditFoodValuesStage.java:84:	Local variable 'prots' could be declared final
+src/view/EditFoodValuesStage.java:85:	Local variable 'fibers' could be declared final
+src/view/EditFoodValuesStage.java:97:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditFoodValuesStage.java:109:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditFoodValuesStage.java:149:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditFoodValuesStage.java:171:	Do not add empty strings
+src/view/EditFoodValuesStage.java:178:	Do not add empty strings
+src/view/EditFoodValuesStage.java:185:	Do not add empty strings
+src/view/EditFoodValuesStage.java:192:	Do not add empty strings
+src/view/EditProfileStage.java:33:	Perhaps 'grid' could be replaced by a local variable.
+src/view/EditProfileStage.java:35:	Perhaps 'title' could be replaced by a local variable.
+src/view/EditProfileStage.java:36:	Perhaps 'name' could be replaced by a local variable.
+src/view/EditProfileStage.java:37:	Perhaps 'maintainingKcals' could be replaced by a local variable.
+src/view/EditProfileStage.java:38:	Perhaps 'somatotype' could be replaced by a local variable.
+src/view/EditProfileStage.java:39:	Perhaps 'weight' could be replaced by a local variable.
+src/view/EditProfileStage.java:43:	Perhaps 'group' could be replaced by a local variable.
+src/view/EditProfileStage.java:48:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/EditProfileStage.java:57:	It is a good practice to call super() in a constructor
+src/view/EditProfileStage.java:57:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditProfileStage.java:72:	Parameter 'controller' is not assigned and could be declared final
+src/view/EditProfileStage.java:95:	Do not add empty strings
+src/view/EditProfileStage.java:102:	Do not add empty strings
+src/view/EditProfileStage.java:158:	Local variable 'n' could be declared final
+src/view/EditProfileStage.java:159:	Local variable 'mKc' could be declared final
+src/view/EditProfileStage.java:160:	Local variable 'weight' could be declared final
+src/view/FoodValuesScene.java:42:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/view/FoodValuesScene.java:42:	Avoid unused constructor parameters such as 'root'.
+src/view/FoodValuesScene.java:42:	Parameter 'controller' is not assigned and could be declared final
+src/view/FoodValuesScene.java:42:	Parameter 'height' is not assigned and could be declared final
+src/view/FoodValuesScene.java:42:	Parameter 'root' is not assigned and could be declared final
+src/view/FoodValuesScene.java:42:	Parameter 'width' is not assigned and could be declared final
+src/view/FoodValuesScene.java:61:	Parameter 'controller' is not assigned and could be declared final
+src/view/FoodValuesScene.java:68:	Local variable 'column1' could be declared final
+src/view/FoodValuesScene.java:71:	Local variable 'column2' could be declared final
+src/view/FoodValuesScene.java:74:	Local variable 'column3' could be declared final
+src/view/FoodValuesScene.java:77:	Local variable 'column4' could be declared final
+src/view/FoodValuesScene.java:80:	Local variable 'column5' could be declared final
+src/view/FoodValuesScene.java:83:	Local variable 'column6' could be declared final
+src/view/HelpStage.java:33:	Perhaps 'title' could be replaced by a local variable.
+src/view/HelpStage.java:34:	Perhaps 'titlePane' could be replaced by a local variable.
+src/view/HelpStage.java:35:	Perhaps 'imageView' could be replaced by a local variable.
+src/view/HelpStage.java:36:	Perhaps 'layout' could be replaced by a local variable.
+src/view/HelpStage.java:37:	Perhaps 'imageBox' could be replaced by a local variable.
+src/view/HelpStage.java:38:	Perhaps 'traitsBox' could be replaced by a local variable.
+src/view/HelpStage.java:39:	Perhaps 'buttonsPane' could be replaced by a local variable.
+src/view/HelpStage.java:40:	Perhaps 'buttonsGrid' could be replaced by a local variable.
+src/view/HelpStage.java:41:	Perhaps 'nextB' could be replaced by a local variable.
+src/view/HelpStage.java:42:	Perhaps 'prevB' could be replaced by a local variable.
+src/view/HelpStage.java:47:	Private field 'ecto' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:48:	Private field 'meso' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:49:	Private field 'endo' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:50:	Private field 'ectoTraits' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:51:	Private field 'mesoTraits' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:52:	Private field 'endoTraits' could be made final; it is only initialized in the declaration or constructor.
+src/view/HelpStage.java:61:	It is a good practice to call super() in a constructor
+src/view/HelpStage.java:61:	Parameter 'controller' is not assigned and could be declared final
+src/view/HelpStage.java:78:	Parameter 'controller' is not assigned and could be declared final
+src/view/HelpStage.java:118:	Local variable 'pane' could be declared final
+src/view/HelpStage.java:128:	Local variable 'pane' could be declared final
+src/view/HelpStage.java:139:	Local variable 'pane' could be declared final
+src/view/MenuItem.java:16:	Perhaps 'text' could be replaced by a local variable.
+src/view/MenuItem.java:16:	Private field 'text' could be made final; it is only initialized in the declaration or constructor.
+src/view/MenuItem.java:28:	It is a good practice to call super() in a constructor
+src/view/MenuItem.java:28:	Parameter 'controller' is not assigned and could be declared final
+src/view/MenuItem.java:28:	Parameter 'name' is not assigned and could be declared final
+src/view/MenuScene.java:22:	Private field 'imageView' could be made final; it is only initialized in the declaration or constructor.
+src/view/MenuScene.java:44:	Avoid unused constructor parameters such as 'root'.
+src/view/MenuScene.java:44:	Parameter 'controller' is not assigned and could be declared final
+src/view/MenuScene.java:44:	Parameter 'height' is not assigned and could be declared final
+src/view/MenuScene.java:44:	Parameter 'root' is not assigned and could be declared final
+src/view/MenuScene.java:44:	Parameter 'width' is not assigned and could be declared final
+src/view/ModifyDietStage.java:31:	Perhaps 'firstGrid' could be replaced by a local variable.
+src/view/ModifyDietStage.java:33:	Perhaps 'firstTitle' could be replaced by a local variable.
+src/view/ModifyDietStage.java:34:	Perhaps 'diets' could be replaced by a local variable.
+src/view/ModifyDietStage.java:35:	Perhaps 'dietsCB' could be replaced by a local variable.
+src/view/ModifyDietStage.java:36:	Perhaps 'dietsOList' could be replaced by a local variable.
+src/view/ModifyDietStage.java:37:	Perhaps 'nextB' could be replaced by a local variable.
+src/view/ModifyDietStage.java:42:	Perhaps 'secondGrid' could be replaced by a local variable.
+src/view/ModifyDietStage.java:43:	Perhaps 'secondTitle' could be replaced by a local variable.
+src/view/ModifyDietStage.java:44:	Perhaps 'name' could be replaced by a local variable.
+src/view/ModifyDietStage.java:45:	Perhaps 'target' could be replaced by a local variable.
+src/view/ModifyDietStage.java:46:	Perhaps 'targetLabel' could be replaced by a local variable.
+src/view/ModifyDietStage.java:47:	Perhaps 'initWeight' could be replaced by a local variable.
+src/view/ModifyDietStage.java:48:	Perhaps 'finWeight' could be replaced by a local variable.
+src/view/ModifyDietStage.java:49:	Perhaps 'nameTF' could be replaced by a local variable.
+src/view/ModifyDietStage.java:50:	Perhaps 'initWeightLabel' could be replaced by a local variable.
+src/view/ModifyDietStage.java:51:	Perhaps 'finWeightTF' could be replaced by a local variable.
+src/view/ModifyDietStage.java:52:	Perhaps 'saveButton' could be replaced by a local variable.
+src/view/ModifyDietStage.java:62:	It is a good practice to call super() in a constructor
+src/view/ModifyDietStage.java:62:	Parameter 'controller' is not assigned and could be declared final
+src/view/ModifyDietStage.java:77:	Parameter 'controller' is not assigned and could be declared final
+src/view/ModifyDietStage.java:124:	Parameter 'controller' is not assigned and could be declared final
+src/view/ModifyDietStage.java:154:	Do not add empty strings
+src/view/ModifyDietStage.java:161:	Do not add empty strings
+src/view/ProfilesScene.java:43:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/view/ProfilesScene.java:43:	Avoid unused constructor parameters such as 'root'.
+src/view/ProfilesScene.java:43:	Parameter 'controller' is not assigned and could be declared final
+src/view/ProfilesScene.java:43:	Parameter 'height' is not assigned and could be declared final
+src/view/ProfilesScene.java:43:	Parameter 'root' is not assigned and could be declared final
+src/view/ProfilesScene.java:43:	Parameter 'width' is not assigned and could be declared final
+src/view/ProfilesScene.java:63:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/view/ProfilesScene.java:63:	Parameter 'controller' is not assigned and could be declared final
+src/view/ProfilesScene.java:73:	Local variable 'column1' could be declared final
+src/view/ProfilesScene.java:76:	Local variable 'column2' could be declared final
+src/view/ProfilesScene.java:79:	Local variable 'column3' could be declared final
+src/view/ProfilesScene.java:82:	Local variable 'column4' could be declared final
+src/view/SelectProfileStage.java:26:	Perhaps 'grid' could be replaced by a local variable.
+src/view/SelectProfileStage.java:28:	Perhaps 'title' could be replaced by a local variable.
+src/view/SelectProfileStage.java:29:	Perhaps 'profiles' could be replaced by a local variable.
+src/view/SelectProfileStage.java:30:	Perhaps 'profilesCB' could be replaced by a local variable.
+src/view/SelectProfileStage.java:31:	Perhaps 'okB' could be replaced by a local variable.
+src/view/SelectProfileStage.java:32:	Perhaps 'names' could be replaced by a local variable.
+src/view/SelectProfileStage.java:41:	It is a good practice to call super() in a constructor
+src/view/SelectProfileStage.java:41:	Parameter 'controller' is not assigned and could be declared final
+src/view/SelectProfileStage.java:56:	Parameter 'controller' is not assigned and could be declared final
+src/view/TitleItem.java:20:	Perhaps 'title' could be replaced by a local variable.
+src/view/TitleItem.java:20:	Private field 'title' could be made final; it is only initialized in the declaration or constructor.
+src/view/TitleItem.java:21:	Perhaps 'selProfile' could be replaced by a local variable.
+src/view/TitleItem.java:21:	Private field 'selProfile' could be made final; it is only initialized in the declaration or constructor.
+src/view/TitleItem.java:22:	Perhaps 'titlePane' could be replaced by a local variable.
+src/view/TitleItem.java:22:	Private field 'titlePane' could be made final; it is only initialized in the declaration or constructor.
+src/view/TitleItem.java:23:	Perhaps 'profilePane' could be replaced by a local variable.
+src/view/TitleItem.java:23:	Private field 'profilePane' could be made final; it is only initialized in the declaration or constructor.
+src/view/TitleItem.java:37:	It is a good practice to call super() in a constructor
+src/view/TitleItem.java:37:	Parameter 'changeProfile' is not assigned and could be declared final
+src/view/TitleItem.java:37:	Parameter 'controller' is not assigned and could be declared final
+src/view/TitleItem.java:37:	Parameter 'title' is not assigned and could be declared final
+src/view/TitleItem.java:73:	Private field 'text' could be made final; it is only initialized in the declaration or constructor.
+src/view/TitleItem.java:82:	It is a good practice to call super() in a constructor
+src/view/TitleItem.java:82:	Parameter 'controller' is not assigned and could be declared final
+src/view/ViewDietStage.java:36:	Perhaps 'firstGrid' could be replaced by a local variable.
+src/view/ViewDietStage.java:37:	Perhaps 'firstTitle' could be replaced by a local variable.
+src/view/ViewDietStage.java:38:	Perhaps 'diets' could be replaced by a local variable.
+src/view/ViewDietStage.java:39:	Perhaps 'dietsCB' could be replaced by a local variable.
+src/view/ViewDietStage.java:40:	Perhaps 'dietsOList' could be replaced by a local variable.
+src/view/ViewDietStage.java:41:	Perhaps 'viewB' could be replaced by a local variable.
+src/view/ViewDietStage.java:45:	Perhaps 'secondTitle' could be replaced by a local variable.
+src/view/ViewDietStage.java:46:	Perhaps 'fODTable' could be replaced by a local variable.
+src/view/ViewDietStage.java:47:	Perhaps 'fODList' could be replaced by a local variable.
+src/view/ViewDietStage.java:49:	Perhaps 'layout' could be replaced by a local variable.
+src/view/ViewDietStage.java:50:	Perhaps 'vBox' could be replaced by a local variable.
+src/view/ViewDietStage.java:51:	Perhaps 'nextB' could be replaced by a local variable.
+src/view/ViewDietStage.java:52:	Perhaps 'prevB' could be replaced by a local variable.
+src/view/ViewDietStage.java:63:	It is a good practice to call super() in a constructor
+src/view/ViewDietStage.java:63:	Parameter 'controller' is not assigned and could be declared final
+src/view/ViewDietStage.java:79:	Parameter 'controller' is not assigned and could be declared final
+src/view/ViewDietStage.java:122:	Parameter 'controller' is not assigned and could be declared final
+src/view/ViewDietStage.java:135:	Local variable 'column1' could be declared final
+src/view/ViewDietStage.java:138:	Local variable 'column2' could be declared final
+src/view/ViewDietStage.java:141:	Local variable 'column3' could be declared final
+src/view/ViewDietStage.java:144:	Local variable 'column4' could be declared final
+src/view/ViewDietStage.java:147:	Local variable 'column5' could be declared final
+src/view/ViewDietStage.java:150:	Local variable 'column6' could be declared final
+src/view/ViewDietStage.java:153:	Local variable 'column7' could be declared final
+src/view/ViewDietStage.java:176:	Local variable 'sp1' could be declared final
+src/view/ViewDietStage.java:188:	Local variable 'sp2' could be declared final
